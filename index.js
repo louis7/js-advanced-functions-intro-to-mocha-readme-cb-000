@@ -1,3 +1,3 @@
 function theTruth(){
-  return boolean(true);
+  return true;
 }
