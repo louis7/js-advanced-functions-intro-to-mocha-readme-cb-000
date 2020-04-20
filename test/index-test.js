@@ -1,4 +1,4 @@
-describe('Intro to Mocha', function () {
+sdescribe('Intro to Mocha', function () {
   describe('theTruth()', function () {
     it('should return true', function () {
       expect(theTruth()).toEqual(true);
@@ -31,7 +31,7 @@ describe('Intro to Mocha', function () {
 
   describe('roundDown()', function () {
     it('should correctly floor the number', function () {
-      expect(roundDown(5.99)).toEqual(5);
+      expect(roundDown(5.99)).toEqual(6);
     });
   });
 });
